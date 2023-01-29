@@ -1,4 +1,4 @@
-package fastaFile
+package FastaFile
 
 import (
 	"fmt"
