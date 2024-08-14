@@ -1,40 +1,40 @@
-package FastaFile
+package lib
 
 import (
 	"bufio"
 	"fmt"
-	"io/ioutil"
+	//"io/ioutil"
 	"os"
 )
 
-func ImportFile(file string) (string, error) {
-	data, err := ioutil.ReadFile(file)
-	if err != nil {
-		fmt.Println(err)
-		return "", err
-	}
-	return string(data), nil
-}
+//func ImportFile(file string) (string, error) {
+//	data, err := ioutil.ReadFile(file)
+//	if err != nil {
+//		fmt.Println(err)
+//		return "Oops! An error ocurred!", err
+//	}
+//	return string(data), nil
+//}
 
-func getSingleLine() {
-	file, err := os.Open("input.txt")
+func GetSingleLine(filepath string) {
+	fastafile, err := os.Open(filepath)
 	if err != nil {
-		fmt.Println("Error al abrir el archivo:", err)
+		fmt.Println("Error trying to open the file", err)
 		return
 	}
-	defer file.Close()
+	defer fastafile.Close()
 
-	scanner := bufio.NewScanner(file)
+	scanner := bufio.NewScanner(fastafile)
 	for scanner.Scan() {
-		line1 := scanner.Text()
+		fastaline1 := scanner.Text()
 		scanner.Scan()
-		line2 := scanner.Text()
-		fmt.Println(line1)
-		fmt.Println(line2)
+		fastaline2 := scanner.Text()
+		fmt.Println(fastaline1)
+		fmt.Println(fastaline2)
 	}
 
 	if err := scanner.Err(); err != nil {
-		fmt.Println("Error al escanear el archivo:", err)
+		fmt.Println("Error scanning:", err)
 		return
 	}
 }
