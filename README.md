@@ -3,7 +3,7 @@ Genomic reads trimming project implemented in the Go-language. This is just an e
 
 ## Plan of Action
 - [ ] **Reading .fastq files**
-- [ ] Trimmunk should put the sequences in single lines with the corresponding phred score under
+- [x] Trimmunk should put the sequences in single lines with the corresponding phred score under
 - [ ] Trimmunk should save this sequences in a new, temporal file
 - [ ] **Running statistics in .fastq sequences**
 - [ ] Trimmunk should interpret the Phred scores based on ASCII characters.
