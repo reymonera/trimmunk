@@ -3,18 +3,8 @@ package lib
 import (
 	"bufio"
 	"fmt"
-	//"io/ioutil"
 	"os"
 )
-
-//func ImportFile(file string) (string, error) {
-//	data, err := ioutil.ReadFile(file)
-//	if err != nil {
-//		fmt.Println(err)
-//		return "Oops! An error ocurred!", err
-//	}
-//	return string(data), nil
-//}
 
 func GetSingleLine(filepath string) {
 	fastafile, err := os.Open(filepath)
@@ -27,10 +17,35 @@ func GetSingleLine(filepath string) {
 	scanner := bufio.NewScanner(fastafile)
 	for scanner.Scan() {
 		fastaline1 := scanner.Text()
+		//fmt.Println("1st line")
+		//fmt.Println(fastaline1)
 		scanner.Scan()
 		fastaline2 := scanner.Text()
-		fmt.Println(fastaline1)
-		fmt.Println(fastaline2)
+		//fmt.Println("2nd line")
+		//fmt.Println(fastaline2)
+		scanner.Scan()
+		fastaline3 := scanner.Text()
+		//fmt.Println("3rd line")
+		//fmt.Println(fastaline3)
+		scanner.Scan()
+		fastaline4 := scanner.Text()
+
+		_ = fastaline1
+		_ = fastaline2
+		_ = fastaline3
+		_ = fastaline4
+		//fmt.Println("4th line")
+		//fmt.Println(fastaline4)
+
+		//if scanner.Scan(){
+		//		fastaline2 := scanner.Text()
+		//} else {
+		//	fastaline2 = ""
+		//	fmt.Println("Odd number of lines detected, or error occurred.")
+		//	break
+		//}
+
+		//fmt.Println("Saved .fasta files in variables in Trimmunk")
 	}
 
 	if err := scanner.Err(); err != nil {

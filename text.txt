@@ -1,16 +1,16 @@
+@ID1
 aaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthgua
-dgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdysaaaaaattthguadgcysbjsvdys
-)(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"
++
 )(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($"#$.-ñ{,´"%})(/%$#%&)=)($
-
+@ID2
 aaaaaattthguadgcysbjsvdys
++
 )(/%$#%&)=)($"#$.-ñ{,´"%}
-
-aaaaaattthguadgcysbjsvdys
-)(/%$#%&)=)($"#$.-ñ{,´"%}
-
-aaaaaattthguadgcysbjsvdys
-)(/%$#%&)=)($"#$.-ñ{,´"%}
-
-aaaaaattthguadgcysbjsvdys
-)(/%$#%&)=)($"#$.-ñ{,´"%}
+@M05795:182:000000000-KRBN6:1:1101:13801:1905 1:N:0:TCTCATGATA+TACACGTGGA
+GTCTATCTCCAGGTCCACGACCACGAATTCCTCGCCGACCAGGGCGACCTTCGCTCGATCCGCGACCTGCCGATCCCGGTCACCCGCGGCATGATCACCGACCGCAACGGCGAGCCGCTGGCGGTATCCACCGAAGTCGCGTCGAT
++
+?AAAAFFFFFFFCGFFFB11AEAA000BFA1DA00A//A//0/////>/BF1//?>//B>/0////>?000//></0//B@/<B0/</@@?CF1FBD<<A-<<@@@@:@-:-9--9-9@@-9--@-A9//99A---A9---@>--A
+@M05795:182:000000000-KRBN6:1:1101:13681:1910 1:N:0:TCTCATGATA+AACACGTGGA
+ATCAAGGCCCGCGGCGGCATCTATGAAGTGCTCGCCCATGCCGAGCGCCTGGCCCTGGAGCACGGCCTGGTCGGCCTCGACGACGACTACTCGCGGCTGGCCGAGGCGGATTGCCGGGCATTCTTCGCCCGCCACCGGATAGCGGTGGG
++
+3AABBFBAAABBGGGGGCEEGGHHB555F35DA10>>1G33@E/////>E1/00?F0/000F?////?//F?B/<<DFD/B@/@?-<CCGHF.---:@-.::--B?@B@@BFFB/----9FFBFFB?.9A?;9>AAA-@DD/9=-D-?-
